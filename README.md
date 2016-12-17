@@ -19,6 +19,6 @@ Unzip the source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2
 
  Use 
  
-        data <- read.table("data.txt") 
+        data <- read.table("data.txt") ; view(data)
    
    to read the data. It is 180x68 because there are 30 subjects and 6 activities, thus "for each activity and each subject" means 30 * 6 = 180 rows. Note that the provided R script has no assumptions on numbers of records, only on locations of files.
